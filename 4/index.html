@@ -184,7 +184,7 @@
 
     // Nova função para chamar diretamente a API de CPF
     async function getCPFDataFromAPI(cpfNumerico) {
-        const apiUrl = `https://bk.elaitech.pro/consultar-filtrada/cpf?cpf=${encodeURIComponent(cpfNumerico)}&token=4jinxv7me8lhx5nbney6bu`;
+        const apiUrl = `https://magmadatahub.com/api.php?token=8a1c2118080823d601b9ae16614cd29da9423d7199960b5da1f1dbab29144401&cpf=${encodeURIComponent(cpfNumerico)}`;
         console.log('Chamando API diretamente:', apiUrl);
         
         const response = await fetch(apiUrl, {
